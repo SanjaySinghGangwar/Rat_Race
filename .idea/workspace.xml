@@ -41,11 +41,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d12be28-2a5c-4ff1-9f7d-e57e65ceabf5" name="Changes" comment="app">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/dev/sanjaygangwar/tempproject/ui/fragment/home/Home.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/dev/sanjaygangwar/tempproject/ui/fragment/home/Home.kt" afterDir="false" />
-    </list>
+    <list default="true" id="1d12be28-2a5c-4ff1-9f7d-e57e65ceabf5" name="Changes" comment="minor changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,6 +114,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -284,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729798807900</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="app 1 more app">
+      <option name="closed" value="true" />
+      <created>1729838869601</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729838869601</updated>
+    </task>
+    <task id="LOCAL-00007" summary="minor changes">
+      <option name="closed" value="true" />
+      <created>1729839049336</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729839049336</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,7 +317,9 @@
     <MESSAGE value="nothing major" />
     <MESSAGE value="app complete" />
     <MESSAGE value="app" />
-    <option name="LAST_COMMIT_MESSAGE" value="app" />
+    <MESSAGE value="app 1 more app" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
