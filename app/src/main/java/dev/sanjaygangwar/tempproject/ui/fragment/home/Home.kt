@@ -21,6 +21,7 @@ class Home : BaseFragment<HomeBinding>(HomeBinding::inflate), HomeAdapter.ItemLi
     override fun getDataFromTheServer() {}
     override fun initAllComponents() {
         listOfApp.clear()
+
         listOfApp.add(Items(name = "Mails", isApp = true, link = "com.microsoft.office.outlook", imageUrl = "https://cdn.iconscout.com/icon/free/png-256/free-google-mail-new-logo-icon-download-in-svg-png-gif-file-formats--gmail-one-ui-pack-logos-icons-3955524.png"))
         listOfApp.add(Items(name = "Google", isApp = false, link = "https://www.google.com/about/careers/applications/dashboard", imageUrl = "https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-09-512.png"))
         listOfApp.add(Items(name = "HackAJob", isApp = false, link = "https://user.hackajob.com/dashboard", imageUrl = "https://media.licdn.com/dms/image/v2/D560BAQF6HYG6dvSK0Q/company-logo_200_200/company-logo_200_200/0/1683088716419/hackajob_logo?e=2147483647&v=beta&t=xCEpmerToqnMH2syL-pKbrceBtCIvKKwNHcXP5Cnzc8"))
@@ -39,7 +40,6 @@ class Home : BaseFragment<HomeBinding>(HomeBinding::inflate), HomeAdapter.ItemLi
         listOfApp.add(Items(name = "LoopCV", isApp = false, link = "https://app.loopcv.pro/", imageUrl = "https://www.loopcv.pro/assets/images/logos/loopcv-new-logo-navbar.png"))
         listOfApp.add(Items(name = "Shine", isApp = true, link = "com.net.shine", imageUrl = "https://play-lh.googleusercontent.com/XZbAiQrSRgCRnmCX8l0t1095rFdj2I8JXEYMCAsq9AhcKbZmYg6_uSR-ABDjiqX5MHxs=s96"))
         listOfApp.add(Items(name = "ChatGPT", isApp = true, link = "com.openai.chatgpt", imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt_I0AqTbvaxxFCoEWH_SZP49jpBiTMiCkCA&s"))
-
 
         adapter = HomeAdapter(requireContext(), this, this)
         bind?.itemListRecycler?.adapter = adapter
